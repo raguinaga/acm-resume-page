@@ -14,12 +14,19 @@
 
 ## Resources
 [W3Schools](https://www.w3schools.com/default.asp)
+[Mozilla](https://developer.mozilla.org/en-US/)
 [Bootstrap 4](https://getbootstrap.com/)
 [Fontawesome](https://fontawesome.com/)
 [TAMUSA Colors](https://www.tamusa.edu/brandguide/brand-tool-kit/brand-colors.html)
 
 ## HyperText Markup Language (HTML)
+HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
 
+"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.
+
+HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup includes special "elements" such as <head>, <title>, <body>, <header>, <footer>, <article>, <section>, <p>, <div>, <span>, <img>, <aside>, <audio>, <canvas>, <datalist>, <details>, <embed>, <nav>, <output>, <progress>, <video>, <ul>, <ol>, <li> and many others.
+
+An HTML element is set off from other text in a document by "tags", which consist of the element name surrounded by "<" and ">".  The name of an element inside a tag is case insensitive. That is, it can be written in uppercase, lowercase, or a mixture. For example, the <title> tag can be written as <Title>, <TITLE>, or in any other way.
 
 ### HTML Comments
 Definition and Usage
@@ -106,6 +113,17 @@ Definition and Usage
     * A visited link is underlined and purple
     * An active link is underlined and red
 
+### BR Tag
+Definition and Usage
+* The `<br>` tag inserts a single line break
+* The `<br>` tag is useful for writing addresses or poems
+* The `<br>` tag is an empty tag which means that it has no end tag
+
+### HR Tag
+Definition and Usage
+* The `<hr>` tag defines a thematic break in an HTML page (e.g. a shift of topic)
+* The `<hr>` element is most often displayed as a horizontal rule that is used to separate content (or define a change) in an HTML page
+
 ### I Tag
 Definition and Usage
 * The `<i>` tag defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic
@@ -134,3 +152,27 @@ Definition and Usage
 * Browsers automatically add a single blank line before and after each `<p>` element
 Tip: Use CSS to style paragraphs.
 
+### HTML Class Attributes
+All HTML elements with the same class attribute will get the same style.
+
+## Cascading Style Sheets
+CSS (Cascading Style Sheets) is a declarative language that controls how webpages look in the browser. The browser applies CSS style declarations to selected elements to display them properly. A style declaration contains the properties and their values, which determine how a webpage looks.
+
+CSS is one of the three core Web technologies, along with HTML and JavaScript. CSS usually styles HTML elements, but can be also used with other markup languages like SVG or XML.
+
+"Cascading" refers to the rules that govern how selectors are prioritized to change a page's appearance. This is a very important feature, since a complex website can have thousands of CSS rules.
+
+## CSS Syntax
+* A CSS rule-set consists of a selector and a declaration block:
+![](https://i.imgur.com/eKeFHt4.gif)
+* The selector points to the HTML element you want to style.
+* The declaration block contains one or more declarations separated by semicolons.
+* Each declaration includes a CSS property name and a value, separated by a colon.
+* Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
+
+## JavaScript
+JavaScript (or "JS") is a programming language used most often for dynamic client-side scripts on webpages, but it is also often used on the server-side, using a runtime such as Node.js.
+
+JavaScript should not be confused with the Java programming language. Although "Java" and "JavaScript" are trademarks (or registered trademarks) of Oracle in the U.S. and other countries, the two programming languages are significantly different in their syntax, semantics, and use cases.
+
+JavaScript is mostly used in the browser, enabling developers to manipulate webpage content through the DOM, manipulate data with AJAX and IndexedDB, draw graphics with canvas, interact with the device running the browser through various APIs, and more. JavaScript is one of the world's most commonly-used languages, owing to the recent growth and performance improvement of APIs available in browsers.
