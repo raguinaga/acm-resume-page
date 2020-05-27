@@ -6,11 +6,11 @@
    * Download and install [Visual Studio Code](https://code.visualstudio.com/Download)
    * Download and install [Git](https://git-scm.com/downloads)
 * Clone this repository
-   * Create a new folder in your directory and name it "<your github username>.github.io"
-   * Open Visual Studio Code and open the new directory
-   * In Visual Studio Code open the terminal window
    * In the terminal window type: `git clone https://github.com/TAMUSA-ACM/GitHub-Pages-HTML-CSS-Workshop.git`
-* Open the index.html file
+   * Rename the folder to: "<your github username>.github.io"
+* Create a new repository in your Github and name it: "<your github username>.github.io"
+   * Under 'Setting' find the 'GitHub Pages' option and change the first pulldown from 'none' to 'master'
+* Open the index.html file in VSC and start editing
 
 ## Resources
 * [W3Schools](https://www.w3schools.com/default.asp)
