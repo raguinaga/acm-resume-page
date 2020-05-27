@@ -13,20 +13,20 @@
 * Open the index.html file
 
 ## Resources
-[W3Schools](https://www.w3schools.com/default.asp)
-[Mozilla](https://developer.mozilla.org/en-US/)
-[Bootstrap 4](https://getbootstrap.com/)
-[Fontawesome](https://fontawesome.com/)
-[TAMUSA Colors](https://www.tamusa.edu/brandguide/brand-tool-kit/brand-colors.html)
+* [W3Schools](https://www.w3schools.com/default.asp)
+* [Mozilla](https://developer.mozilla.org/en-US/)
+* [Bootstrap 4](https://getbootstrap.com/)
+* [Fontawesome](https://fontawesome.com/)
+* [TAMUSA Colors](https://www.tamusa.edu/brandguide/brand-tool-kit/brand-colors.html)
 
 ## HyperText Markup Language (HTML)
 HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
 
 "Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.
 
-HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup includes special "elements" such as <head>, <title>, <body>, <header>, <footer>, <article>, <section>, <p>, <div>, <span>, <img>, <aside>, <audio>, <canvas>, <datalist>, <details>, <embed>, <nav>, <output>, <progress>, <video>, <ul>, <ol>, <li> and many others.
+HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup includes special "elements" such as `<head>, <title>, <body>, <header>, <footer>, <article>, <section>, <p>, <div>, <span>, <img>, <aside>, <audio>, <canvas>, <datalist>, <details>, <embed>, <nav>, <output>, <progress>, <video>, <ul>, <ol>, <li>` and many others.
 
-An HTML element is set off from other text in a document by "tags", which consist of the element name surrounded by "<" and ">".  The name of an element inside a tag is case insensitive. That is, it can be written in uppercase, lowercase, or a mixture. For example, the <title> tag can be written as <Title>, <TITLE>, or in any other way.
+An HTML element is set off from other text in a document by "tags", which consist of the element name surrounded by "<" and ">".  The name of an element inside a tag is case insensitive. That is, it can be written in uppercase, lowercase, or a mixture. For example, the `<title>` tag can be written as `<Title>`, `<TITLE>`, or in any other way.
 
 ### HTML Comments
 Definition and Usage
@@ -67,12 +67,12 @@ Definition and Usage
 Definition and Usage
 * The `<body>` tag defines the document's body
 * The `<body>` element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc
-Note: There can only be one <body> element in an HTML document
+Note: There can only be one `<body>` element in an HTML document
    
 ### Header Tag
 Definition and Usage
 * The `<header>` element represents a container for introductory content or a set of navigational links
-*A <header> element typically contains:
+* A `<header>` element typically contains:
     * one or more heading elements (`<h1> - <h6>`)
     * logo or icon
     * authorship information
@@ -101,7 +101,7 @@ Note: By default, browsers always place a line break before and after the `<div>
 ### H1 - H6 Tags
 Definition and Usage
 * The `<h1> to <h6>` tags are used to define HTML headings
-* <h1> defines the most important heading. <h6> defines the least important heading.
+* `<h1>` defines the most important heading. `<h6>` defines the least important heading.
 Note: Only use one `<h1>` per page - this should represent the main heading/subject for the whole page. Also, do not skip heading levels - start with `<h1>`, then use `<h2>`, and so on.
    
 ### A Tag
@@ -154,6 +154,8 @@ Tip: Use CSS to style paragraphs.
 
 ### HTML Class Attributes
 All HTML elements with the same class attribute will get the same style.
+
+In this Workshop we are using the Bootstrap 4 [Layout](https://getbootstrap.com/docs/4.0/layout/overview/) to create the overall style of our Webpage.
 
 ## Cascading Style Sheets
 CSS (Cascading Style Sheets) is a declarative language that controls how webpages look in the browser. The browser applies CSS style declarations to selected elements to display them properly. A style declaration contains the properties and their values, which determine how a webpage looks.
