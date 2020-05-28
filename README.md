@@ -7,8 +7,8 @@
    * Download and install [Git](https://git-scm.com/downloads)
 * Clone this repository
    * In the terminal window type: `git clone https://github.com/TAMUSA-ACM/GitHub-Pages-HTML-CSS-Workshop.git`
-   * Rename the folder to: "<your github username>.github.io"
-* Create a new repository in your Github and name it: "<your github username>.github.io"
+   * Rename the folder to: "`<your github username>.github.io`"
+* Create a new repository in your Github and name it: "`<your github username>.github.io`"
    * Under 'Setting' find the 'GitHub Pages' option and change the first pulldown from 'none' to 'master'
 * Open the index.html file in VSC and start editing
 
